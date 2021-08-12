@@ -19,7 +19,7 @@ int main()
     }
     
     
-    if(strlen(password) >= 6 ) {
+    if(strlen(password) >= 5 ) {
       for (int i = 0; i< strlen(password); i++) {
         if (islower(password[i]) != 0) lower++;
         else if (isupper(password[i]) != 0) upper++;
